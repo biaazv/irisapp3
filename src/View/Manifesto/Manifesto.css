@@ -1,0 +1,43 @@
+.manifesto{
+    padding: 40px;
+    flex-direction: column;
+    text-align: center;
+   }
+  
+  .manifesto h2{
+    color: #882AA5;
+    text-align: center;
+  }
+  
+  .manifesto p{
+    text-align: justify
+  }
+  
+  .manifesto ul{
+    list-style: square;
+    line-height: 1cm;
+    text-align: left;
+  }
+  
+  
+  .manifesto button{
+    flex: 1 1 200px;
+    cursor: pointer;
+    padding: 15px 10px;
+    width: 320px;
+    border: 2px solid #882AA5;
+    background-color: #882AA5 ;
+    font-size: medium;
+    box-shadow: 5px 4px  #FFDD00;
+  }
+  
+  .manifesto button a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .cadastro{
+    padding: 38px;
+    
+  }
+   

@@ -1,0 +1,62 @@
+.banner{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: pink;
+  }
+  
+  .banner div {
+    width: 600px;
+    height: 203px;
+   }
+  
+  .banner p{
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .banner section{
+    display: flex;
+    background-color: red;
+    border: 2px solid #882AA5;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #882AA5;
+    align-items: center;
+}
+
+  .banner #lojagoogle{
+    width: 46px;
+    height: 46px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .banner p{
+  font-size: 30px;
+  line-height: 35px;
+  }
+  
+  #casallgbt{
+    width: 578px;
+    height: 336px;
+    padding-top: 77px;
+  }
+  
+  .figure{
+    width: 610px;
+    height: 78px;
+    font-size: 25px;
+    position: absolute;
+  
+  }
+
+  figcaption{
+    background-color: #FFDD00;
+    border: 2px solid #FFDD00;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  
