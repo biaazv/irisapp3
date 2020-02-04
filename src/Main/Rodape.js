@@ -11,7 +11,7 @@ export default function Rodape() {
       <img className="logorodape" src={iris_roxo} alt=""></img>
       
       <div className="mapadosite">
-       <h4> Mapa do Site </h4>
+       <h3> Mapa do Site </h3>
         <a href="/sobre"><p>Sobre</p></a>
         <a href="/manifesto">   <p>Manifesto LGBT+</p></a>
         <a href="/login"><p>Faça parte</p></a>

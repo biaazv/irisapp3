@@ -1,56 +1,53 @@
 .banner{
+  background-color: pink;
   display: flex;
   flex-wrap: wrap;
-  width: 1200px;
-  height: 500px;
+  max-width: 1200px;
   margin: 0 auto;
-  background-color: pink;
-  }
-  
-  .banner div {
-    width: 600px;
-    height: 203px;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
    }
   
+  .banner div {
+    flex: 1 1 500px;
+    padding: 10px;
+   } 
+
   .banner p{
     font-size: 36px;
     line-height: 42px;
+    padding: 10px 0px;
   }
 
   .banner section{
     display: flex;
-    background-color: red;
+    flex-wrap: wrap;
     border: 2px solid #882AA5;
-    box-sizing: border-box;
+    box-sizing: border-box; 
     border-radius: 10px;
     color: #882AA5;
     align-items: center;
+    max-width: 400px;
 }
 
   .banner #lojagoogle{
     width: 46px;
     height: 46px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 16px;
   }
 
   .banner p{
   font-size: 30px;
-  line-height: 35px;
   }
   
-  #casallgbt{
-    width: 578px;
-    height: 336px;
-    padding-top: 77px;
-  }
+ #casallgbt{
+    max-width: 578px;
+    max-height: 336px;
+  } 
   
-  .figure{
-    width: 610px;
-    height: 78px;
-    font-size: 25px;
-    position: absolute;
-  
+  .banner figure{
+     font-size: 25px;
   }
 
   figcaption{
@@ -58,5 +55,6 @@
     border: 2px solid #FFDD00;
     border-radius: 10px;
     padding: 5px;
+    font-size: 25px;
   }
-  
+   
