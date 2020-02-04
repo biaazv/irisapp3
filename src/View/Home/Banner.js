@@ -11,9 +11,9 @@ export default function Banner() {
         Iris é um aplicativo que certifica locais amigáveis para o público LGBT+. 
         </p>
 
-        <section>
+        <section className="secao">
         <img id="lojagoogle" src={googleplay} alt="logo do google play"></img>
-        <p>Disponível na PlayStore</p>
+        <p className="googlestore">Em breve  na PlayStore</p>
         </section>
         </div>
 

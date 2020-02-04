@@ -34,6 +34,11 @@ export default function estabelecimentos (){
           title: "CINEMAS",
           figure: cinema
         },
+        /* {
+          id: 6,
+          title: "OUTROS",
+          figure: 
+        } */
       ];
     
       return (

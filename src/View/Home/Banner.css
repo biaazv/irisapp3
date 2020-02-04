@@ -1,5 +1,4 @@
 .banner{
-  background-color: pink;
   display: flex;
   flex-wrap: wrap;
   max-width: 1200px;
@@ -11,13 +10,14 @@
   
   .banner div {
     flex: 1 1 500px;
+    display: block;
     padding: 10px;
    } 
 
   .banner p{
-    font-size: 36px;
-    line-height: 42px;
-    padding: 10px 0px;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 5px;
   }
 
   .banner section{
@@ -28,22 +28,16 @@
     border-radius: 10px;
     color: #882AA5;
     align-items: center;
-    max-width: 400px;
-}
+  } 
 
   .banner #lojagoogle{
     width: 46px;
     height: 46px;
     padding: 16px;
   }
-
-  .banner p{
-  font-size: 30px;
-  }
   
  #casallgbt{
-    max-width: 578px;
-    max-height: 336px;
+   max-width: 100%;
   } 
   
   .banner figure{
@@ -55,6 +49,9 @@
     border: 2px solid #FFDD00;
     border-radius: 10px;
     padding: 5px;
-    font-size: 25px;
+    font-size: 20px;
+    position: relative;
+    bottom: 50px;
+    left: -20px;
   }
-   
+  
