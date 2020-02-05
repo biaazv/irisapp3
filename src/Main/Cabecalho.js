@@ -20,7 +20,7 @@ export default function Cabecalho() {
                    
         <li><a href="/sobre">SOBRE</a></li> 
         <li><a href="/manifesto">MANIFESTO</a></li> 
-        <li><a href="/">APLICATIVO</a></li>         
+        <li><a href="/aplicativo">COMO FUNCIONA</a></li>         
         <li><a class="loginho" href="/"><img src={iris_roxo}/></a></li> 
         <li><a href="/Sobre">LOGIN</a></li> 
         <li><a href="/">PESQUISAR</a></li> 

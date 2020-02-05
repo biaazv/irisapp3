@@ -20,6 +20,7 @@ export default function Rodape() {
       <li>Converse com as pessoas que testemunharam o caso de violência. Peça o telefone ou, caso haja, oriente um amigo a pegar o contato das pessoas que estavam no local da violência. Elas podem ser importantes testemunhas jurídicas.</li>
       </ul>
 
+    
       <button><a href="https://dedic.pcivil.rj.gov.br/Questionario.aspx">Denuncie</a> </button>
     </div>
   );
