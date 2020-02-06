@@ -19,7 +19,7 @@ export default function Rodape() {
 
       <div className="social">
 
-        <img className="social-item" src={facebook} alt=""></img>
+        <a href="https://www.facebook.com/Iris-App-101932301382113/"><img className="social-item" src={facebook} alt=""></img></a>
         <a href="http://instagram.com/oappiris"> <img className="social-item" src={instagram} alt=""></img> </a>
         <a href="mailto:irisapp.contato@gmail.com"><img className="social-item" src={email_roxo} alt=""></img> </a>
       </div>
